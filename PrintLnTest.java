@@ -61,6 +61,6 @@ public class PrintLnTest {
         String actual = outputStream.toString();
 
         // Then
-        Assert.assertEquals(expected, actual);
+        Assert.assertEquals(actual ,expected);
     }
 }
